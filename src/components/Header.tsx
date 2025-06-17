@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/morin ga.jpg'; 
+import logo from '../assets/logo.jpg'; 
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,12 +23,16 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
          
           <Link to="/" className="flex items-center space-x-2 group">
-            <img
-              src={logo}
-              alt="dil maina Pharmacy"
-              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-          </Link>
+  <img
+    src={logo}
+    alt="Dil Maina Pharmacy"
+    className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+  />
+  <span className="text-lg font-semibold text-teal-800 group-hover:text-primary transition-colors duration-300">
+    Dil Maina Pharmacy and Clinic
+  </span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

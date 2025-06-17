@@ -1,4 +1,5 @@
-import { Phone, Mail, MapPin, Cross } from 'lucide-react';
+import { Phone, Mail, MapPin} from 'lucide-react';
+import logo from '../assets/logo1.png';
 
 const Footer = () => {
   return (
@@ -9,8 +10,12 @@ const Footer = () => {
           <div className="transform transition-transform duration-300 hover:scale-105">
             <div className="flex items-center space-x-2 mb-4 group">
               <div className="transform transition-transform duration-300 group-hover:rotate-12">
-                <Cross className="h-8 w-8 text-teal-400" />
-              </div>
+  <img
+    src={logo}
+    alt="Dil Maina Pharmacy"
+    className="h-8 w-8 object-contain"
+  />
+</div>
               <div>
                 <h3 className="text-xl font-bold">Dil Maina Pharmacy & Clinic</h3>
                 <p className="text-gray-400 text-sm">Your trusted neighborhood health partner</p>
