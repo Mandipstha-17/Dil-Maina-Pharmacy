@@ -35,14 +35,14 @@ const Footer = () => {
                 className="flex items-center space-x-3 group hover:text-teal-400 transition-colors duration-300"
               >
                 <Phone className="h-5 w-5 text-teal-400 group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-sm">+977-1-4567890</span>
+                <span className="text-sm">+977-01-4977991</span>
               </a>
               <a
-                href="mailto:gorkhalipatholoy75@gmail.com"
+                href="mailto:pharmacy.dilmaina78@gmail.com"
                 className="flex items-center space-x-3 group hover:text-teal-400 transition-colors duration-300"
               >
                 <Mail className="h-5 w-5 text-teal-400 group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-sm">gorkhalipatholoy75@gmail.com</span>
+                <span className="text-sm">pharmacy.dilmaina78@gmail.com</span>
               </a>
               <div className="flex items-start space-x-3 group">
                 <MapPin className="h-5 w-5 text-teal-400 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
@@ -56,12 +56,8 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Opening Hours</h4>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between hover:text-teal-400 transition-colors duration-300">
-                <span>Sunday - Friday:</span>
+                <span>Sunday - Saturday:</span>
                 <span>7:30 AM - 9:30 PM</span>
-              </div>
-              <div className="flex justify-between hover:text-teal-400 transition-colors duration-300">
-                <span>Saturday:</span>
-                <span>8:00 AM - 8:00 PM</span>
               </div>
               <div className="mt-4 p-3 bg-teal-600 rounded-lg hover:bg-teal-700 hover:scale-105 transition-all duration-300">
                 <p className="text-xs font-medium">Emergency Line (24/7)</p>

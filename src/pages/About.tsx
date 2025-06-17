@@ -114,9 +114,9 @@ const About = () => {
                 Postal Code: 44600
               </p>
               <p className="text-gray-700">
-                <strong>Phone:</strong> +977-1-<br />
+                <strong>Phone:</strong> +977-01-4977991-<br />
                 <strong>Emergency:</strong> +977-9818068544/9851186986<br />
-                <strong>Email:</strong> gorkhalipathology75@gmail.com
+                <strong>Email:</strong> pharmacy.dilmaina78@gmail.com
               </p>
             </div>
           </div>
@@ -128,12 +128,8 @@ const About = () => {
             </div>
             <div className="space-y-3">
               <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                <span className="font-medium text-gray-900">Sunday - Friday</span>
+                <span className="font-medium text-gray-900">Sunday - Saturday</span>
                 <span className="text-gray-600">7:00 AM - 9:30 PM</span>
-              </div>
-              <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                <span className="font-medium text-gray-900">Saturday</span>
-                <span className="text-gray-600">8:00 AM - 8:00 PM</span>
               </div>
               <div className="mt-4 p-4 bg-red-50 rounded-lg">
                 <p className="text-sm font-medium text-red-800">

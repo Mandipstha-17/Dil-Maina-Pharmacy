@@ -112,10 +112,10 @@ const FAQ = () => {
               href="tel:+97714567890"
               className="inline-flex items-center px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-colors duration-200"
             >
-              Call: +977-1-4567890
+              Call: +977-01-4977991
             </a>
             <a
-              href="mailto:gorkhalipathology75@gmail.com"
+              href="mailto:pharmacy.dilmaina78@gmail.com"
               className="inline-flex items-center px-6 py-3 bg-white text-teal-600 font-semibold rounded-lg border-2 border-teal-600 hover:bg-teal-50 transition-colors duration-200"
             >
               Email Us

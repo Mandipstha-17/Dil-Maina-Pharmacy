@@ -93,7 +93,7 @@ const Contact = () => {
                   bgColor="bg-teal-100"
                   details={
                     <>
-                      <p>Main: +977-1-4567890</p>
+                      <p>Main: +977-01-4977991</p>
                       <p>Emergency: +977-9818068544</p>
                       <p className="text-sm text-gray-500 mt-1">Available 24/7</p>
                     </>
@@ -105,7 +105,7 @@ const Contact = () => {
                   bgColor="bg-blue-100"
                   details={
                     <>
-                      <p>mandeeparha123@gmail.com</p>
+                      <p>pharmacy.dilmaina78@gmail.com</p>
                       <p className="text-sm text-gray-500 mt-1">Reply within 24 hours</p>
                     </>
                   }
@@ -128,8 +128,7 @@ const Contact = () => {
                   bgColor="bg-purple-100"
                   details={
                     <>
-                      <p>Sun–Fri: 7:00 AM – 9:30 PM</p>
-                      <p>Saturday: 8:00 AM – 9:00 PM</p>
+                      <p>Sun–Sat: 7:00 AM – 9:30 PM</p>
                     </>
                   }
                 />
@@ -143,7 +142,7 @@ const Contact = () => {
               </h2>
               <div className="space-y-4">
                 <ActionButton
-                  href="tel:+9771456789"
+                  href="tel:+977-01-4977991"
                   icon={<Phone className="h-6 w-6 text-teal-600" />}
                   title="Call Now"
                   description="Speak directly with our pharmacist"

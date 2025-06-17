@@ -1,4 +1,3 @@
-
 import { 
   Users, 
   Scissors, 
@@ -17,13 +16,13 @@ const Services = () => {
       title: 'Doctor Consultation at Pharmacy',
       description: 'Professional medical consultation with experienced doctors available at our pharmacy.',
       details: [
-        'Available on Everday',
-        'Consultation hours: May vary accoridng to doctor',
+        'Available on Everyday',
+        'Consultation hours: May vary according to doctor',
         'General health checkups and consultations',
         'Prescription reviews and medication counseling',
         'Blood pressure and basic health monitoring'
       ],
-      schedule: 'Sun, Mon, Tue, Wed, Thurs ,Fri, Sat | 9:00 AM - 12:00 PM',
+      schedule: 'Sun, Mon, Tue, Wed, Thurs, Fri, Sat | 9:00 AM - 12:00 PM',
       color: 'blue'
     },
     {
@@ -67,6 +66,76 @@ const Services = () => {
       ],
       schedule: 'Available 24/7',
       color: 'purple'
+    },
+    {
+      icon: Clock,
+      title: 'Video X-ray Service',
+      description: 'Real-time diagnostic imaging with advanced video X-ray technology.',
+      details: [
+        'High-resolution imaging',
+        'On-site and on-demand scanning',
+        'Expert technician assistance',
+        'Quick report generation',
+        'Doctor-reviewed reports'
+      ],
+      schedule: 'Available during working hours',
+      color: 'blue'
+    },
+    {
+      icon: Clock,
+      title: 'ECG & ECHO',
+      description: 'Cardiac diagnostic services including Electrocardiogram and Echocardiogram.',
+      details: [
+        'Heart rhythm and electrical activity monitoring',
+        'Non-invasive heart imaging (ECHO)',
+        'Performed by trained professionals',
+        'Result consultation with doctors',
+        'Safe and quick procedure'
+      ],
+      schedule: '8:00 AM - 1:00 PM, Sun–Fri',
+      color: 'red'
+    },
+    {
+      icon: FlaskConical,
+      title: 'Pathology Lab Services',
+      description: 'Comprehensive pathology services for accurate diagnostics.',
+      details: [
+        'Complete blood counts',
+        'Thyroid, liver, kidney tests',
+        'Diabetes and cholesterol panels',
+        'Pregnancy and hormone testing',
+        'Certified lab technicians'
+      ],
+      schedule: 'Samples collected 7:00 AM – 12:00 PM daily',
+      color: 'green'
+    },
+    {
+      icon: Calendar,
+      title: 'Vaccination Services',
+      description: 'Routine and travel vaccinations for all age groups.',
+      details: [
+        'Immunizations for children and adults',
+        'COVID-19 vaccine support',
+        'Travel health vaccines',
+        'Maintained cold chain supply',
+        'Certified practitioners'
+      ],
+      schedule: '9:00 AM - 5:00 PM, Sun–Fri',
+      color: 'purple'
+    },
+    {
+      icon: Users,
+      title: 'Free Medical Counselling',
+      description: 'Get professional health guidance free of charge from our in-house staff.',
+      details: [
+        'Lifestyle and wellness advice',
+        'Medication and treatment guidance',
+        'No appointment needed',
+        'Walk-in anytime',
+        'Friendly staff and environment'
+      ],
+      schedule: 'Available during pharmacy hours',
+      color: 'blue'
     }
   ];
 
@@ -170,14 +239,13 @@ const Services = () => {
             <div className="text-center">
               <div className="bg-teal-100 p-4 rounded-full w-fit mx-auto mb-4">
                 <Phone className="h-8 w-8 text-teal-600" />
-             </div>
-  <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-  <a href="tel:+97714567890" className="text-gray-600 hover:underline">
-    +977-1-4567890
-  </a>
-  <p className="text-sm text-gray-500">For appointments and inquiries</p>
-</div>
-
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
+              <a href="tel:+97714567890" className="text-gray-600 hover:underline">
+                +977-01-4977991
+              </a>
+              <p className="text-sm text-gray-500">For appointments and inquiries</p>
+            </div>
 
             <div className="text-center">
               <div className="bg-blue-100 p-4 rounded-full w-fit mx-auto mb-4">
@@ -200,7 +268,7 @@ const Services = () => {
 
           <div className="mt-8 text-center">
             <a
-              href="tel:+9771456789"
+              href="tel:+977-01-4977991"
               className="inline-flex items-center px-8 py-4 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-colors duration-200"
             >
               <Phone className="mr-2 h-5 w-5" />
